@@ -1,10 +1,9 @@
 # Block-Building-VR-Coach 🤖
 A VR-assistant that from an spoken intruction is able to find a sequence of actions that lead to the goal state and guides the user through this process.
 
-Created as a project deliverable in the course Trends in
-[Demo video]https://youtu.be/b2My-hqHd28)
-[Presentation PDF](docs/CONTRIBUTING.md)
-
+Created as a project deliverable in the course Trends in Interactive Intelligent Environments in 2021.
+- [Demo video](https://youtu.be/b2My-hqHd28)
+- [Paper](Block_Building_Coaching_Agent_in_Virtual_Reality.pdf)
 
 ## Components 🛠
 - Rasa open source machine learning framework for __automated conversation__
@@ -13,3 +12,4 @@ Created as a project deliverable in the course Trends in
 - 3D model and Oculus expressive avatar for __embodied conversation__
 
 ## Activity Diagram
+![Activity Diagram](activity.png)
