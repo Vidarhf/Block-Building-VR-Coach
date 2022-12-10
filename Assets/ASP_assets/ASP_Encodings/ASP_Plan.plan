@@ -1,0 +1,21 @@
+% C:\Blandat\asp_solver>DLV hap2/hap.plan hap2/hap.dl -FP -N=4
+
+fluents: on(B,L) requires block(B), location(L).
+
+    occupied(B) requires location(B). 
+
+actions: move(B,L) requires block(B), location(L).
+
+always: 
+	
+	executable move(B,L) if not occupied(B), not occupied(L), B <> L.
+
+    inertial on(B,L).
+
+    caused occupied(B) if on(B1,B), block(B).
+
+    caused on(B,L) after move(B,L).
+
+    caused -on(B,L1) after move(B,L), on(B,L1), L <> L1. 
+
+noConcurrency.

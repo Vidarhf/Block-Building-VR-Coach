@@ -1,0 +1,5 @@
+location(table) :- true. true.
+
+location(B) :- block(B).
+
+block(red). block(green). block(blue). block(yellow). block(orange). 

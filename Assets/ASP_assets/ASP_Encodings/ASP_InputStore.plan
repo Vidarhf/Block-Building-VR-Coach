@@ -1,0 +1,10 @@
+initially: 
+on(red,table). 
+on(green,table). 
+on(blue,red). 
+on(yellow,table). 
+on(orange,table). 
+
+
+goal: 
+on(red,table),on(green,red),on(blue,green),on(yellow,blue),on(orange,yellow)? (5)
